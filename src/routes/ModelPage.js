@@ -143,6 +143,8 @@ const ModelInfo = () => {
       </Navbar>
   <Row>
     <Col style={{ margin: '50px', textAlign: 'left'}}>
+          <p><b>Instructions: </b> Upload images which coorispond to a class, and press the associated button.
+          This improves the model. If you want to save your training progress press the save button to update the model permanently.</p>
           <p><b>Prediction: </b> {prediction}</p>
           <p><b>Confidence: </b> <i>{JSON.stringify(confidence)}</i></p>
           <p><b>Raw Mobilenet Tags: </b>

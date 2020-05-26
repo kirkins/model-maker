@@ -53,6 +53,7 @@ const CreateModel = () => {
           </Form.Group>
         </Form.Row>
         <Form.Row>
+          <br/>
           <Form.Group>
           {classes.map((item, i) =>
             <Form.Control
@@ -63,6 +64,7 @@ const CreateModel = () => {
           </Form.Group>
         </Form.Row>
       </Form>
+      <p><i>Create at least 2 classes</i></p>
       <Button
         onClick={() => addClass("")}
       >
